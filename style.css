@@ -1,0 +1,61 @@
+/* This asterisk means that it will set all of the default padding and margin to 0 */
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+
+.main-header{
+    position: fixed;
+    background-color: aqua;
+    width: fit-content;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+    width: fit-content;
+    background-color:#000000;
+}
+  
+.sidenav {
+height: 100%;
+width: 200px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #070D0D;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: #cf3f3f;
+}
+
+.main {
+margin-left: 210px; /* Same as the width of the sidenav */
+font-size: 28px; /* Increased text to enable scrolling */
+background-color: #000000;
+
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
