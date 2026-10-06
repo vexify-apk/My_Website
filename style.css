@@ -1,4 +1,3 @@
-/* This asterisk means that it will set all of the default padding and margin to 0 */
  *{
     margin: 0;
     padding: 0;
@@ -80,17 +79,17 @@ button {
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
-    background-color:#cf3f3f;
+    /* background-color:#cf3f3f; */
 }
 .container {
     margin: 0 auto;
     padding: 16px;
     width: 500px;
-    background-color: #1316cc;
+    /* background-color: #1316cc; */
 }
 
 img.avatar {
-    width: 20%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -101,3 +100,10 @@ img.avatar {
     float: none;
   }
 }
+
+p {
+    /* position: fixed; */
+    text-align: center;
+    font-size: 70px;
+}
+
